@@ -58,6 +58,7 @@
     {
         AVAudioPlayer * player = [voices objectAtIndex:x];
         [player stop];
+        player.currentTime = 0.0;
     }
 }
 
