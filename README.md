@@ -82,7 +82,7 @@ fail - error/fail callback function
 
 
 ```javascript
-pause: function (id, index, success, fail) 	
+unpause: function (id, index, success, fail) 	
 ```
 * params : ID - string unique ID for the audio file
 index - index of a specific audio voice to unpause - pass -1 or null to unpause all voices for the audio file.
