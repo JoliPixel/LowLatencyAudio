@@ -17,6 +17,10 @@ You will also need to include the AudioToolbox library in your XCode project. In
 2. Play the audio asset
 3. When done, unload the audio asset
 
+## Todo
+
+Check compatibility with Android for pause / unpause / stop methods.
+
 
 ## API methods
 ```javascript
