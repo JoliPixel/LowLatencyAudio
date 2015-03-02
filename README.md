@@ -80,6 +80,16 @@ success - success callback function
 fail - error/fail callback function
 * detail : Pauses an audio file - this only works for assets loaded via preloadAudio
 
+
+```javascript
+pause: function (id, index, success, fail) 	
+```
+* params : ID - string unique ID for the audio file
+index - index of a specific audio voice to unpause - pass -1 or null to unpause all voices for the audio file.
+success - success callback function
+fail - error/fail callback function
+* detail : Unpauses an audio file. Recommanded instead of .stop() then .play().
+* 
 ```javascript
 setVolume: function (id, index, volume, success, fail) 	
 ```
